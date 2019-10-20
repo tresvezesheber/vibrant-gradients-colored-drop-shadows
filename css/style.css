@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.principal {
+  padding: 40px;
+}
+
+.principal > p {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.principal > p:last-of-type {
+  color: #c80aff;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.item-card {
+  max-width: 246px;
+  margin: 10px;
+  padding: 20px 30px;
+  border-radius: 32px;
+  transition: 0.3s;
+  color: #fff;
+  cursor: pointer;
+}
+
+.item-card:nth-child(1) {
+  background: linear-gradient(145deg, #c624ff, #6f0097);
+}
+
+.item-card:nth-child(2) {
+  background: linear-gradient(145deg, #2433ff, #000875);
+}
+
+.item-card:nth-child(3) {
+  background: linear-gradient(145deg, #39be18, #166d00);
+}
+
+.item-card:nth-child(4) {
+  background: linear-gradient(145deg, #f0d122, #9b8400);
+}
+
+.item-card:hover {
+  box-shadow: 7px 7px 11px rgba(0, 0, 0, .26);
+}
+
+.item-card h1 {
+  font-size: 2.187em;
+  font-weight: bold;
+}
+
+.item-card p {
+  margin: 16px 0;
+  font-size: 1em;
+}
+
+.button-card {
+  display: block;
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 22px;
+  background: #fff;
+  color: #000;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
